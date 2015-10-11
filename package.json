@@ -1,0 +1,44 @@
+{
+  "name": "gulpack-browsersync",
+  "description": "",
+  "version": "1.0.0",
+  "author": "takanopontaro",
+  "bugs": {
+    "url": "https://github.com/takanopontaro/node-gulpack-browsersync/issues"
+  },
+  "dependencies": {
+    "browser-sync": "^2.9.11",
+    "gulp": "^3.9.0",
+    "gulpack-base": "^1.0.0"
+  },
+  "devDependencies": {
+    "fixpack": "^2.2.0",
+    "gulpack": "^1.0.1",
+    "gulpack-babel": "^1.0.0",
+    "gulpack-del": "^1.0.0",
+    "npm-check-updates": "^2.2.4"
+  },
+  "files": [
+    "dist/main.js"
+  ],
+  "homepage": "https://github.com/takanopontaro/node-gulpack-browsersync",
+  "keywords": [
+    "gulp",
+    "gulpack",
+    "browser-sync",
+    "plugin"
+  ],
+  "license": "MIT",
+  "main": "dist/main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/takanopontaro/node-gulpack-browsersync.git"
+  },
+  "scripts": {
+    "build": "NODE_ENV=production gulp build",
+    "fixpack": "fixpack",
+    "gulp": "NODE_ENV=development gulp",
+    "ncu": "ncu",
+    "start": "NODE_ENV=development gulp"
+  }
+}
