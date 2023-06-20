@@ -8,8 +8,8 @@
   },
   "dependencies": {
     "browser-sync": "^2.9.11",
-    "gulp": "^3.9.0",
-    "gulpack-base": "^1.0.0"
+    "gulp": "^4.0.0",
+    "gulpack-base": "^2.0.0"
   },
   "devDependencies": {
     "fixpack": "^2.2.0",
