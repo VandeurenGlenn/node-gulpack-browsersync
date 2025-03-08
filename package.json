@@ -7,7 +7,7 @@
     "url": "https://github.com/takanopontaro/node-gulpack-browsersync/issues"
   },
   "dependencies": {
-    "browser-sync": "^2.9.11",
+    "browser-sync": "^3.0.0",
     "gulp": "^3.9.0",
     "gulpack-base": "^1.0.0"
   },
